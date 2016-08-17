@@ -64,7 +64,7 @@ var projects = [
 var projects_html = [];
 
 for(var i=0,z=projects.length;i<z;i++){
-	projects_html.push('<article class="post stub"><header><h3><a href="',projects[i].link,'">',projects[i].title,'</a></h3></header><p>',projects[i].description,'</p><span class="timestamp">&nbsp;</span></article>');
+	projects_html.push('<li><article class="post stub"><header><h3><a href="',projects[i].link,'">',projects[i].title,'</a></h3></header><p>',projects[i].description,'</p></article></li>');
 }
 
 $(projects_html.join("")).appendTo($("#projects ul"));
