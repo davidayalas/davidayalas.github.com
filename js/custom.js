@@ -34,7 +34,7 @@ $.getJSON("https://script.google.com/macros/s/AKfycbzLmZM7BRV_l4X9WL1h2QiQZmBrMZ
 	}
 
 	if(stb.length>0){
-		$("<a href='#' id='moretweets' title='show more tweets'>[+]</a>").appendTo($("#twitter"));
+		$("<a href='#' id='moretweets' title='show more tweets' class='icon fa-plus-circle'><span class='label'>[+]</span></a>").appendTo($("#twitter"));
 		$(stb.join("")).appendTo($("#twitter ul"));
 	}
 

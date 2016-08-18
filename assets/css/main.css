@@ -3045,3 +3045,6 @@
 .hidden{display:none;}
 .flickr .reel img{max-height: 320px}
 .ico{width:32px;}
+.style3{
+	background-color: rgba(72, 57, 73, 0.5);
+}
